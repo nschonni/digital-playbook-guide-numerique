@@ -4,7 +4,7 @@
   "description": "This Digital Playbook, and the Digital Principles it is built upon, will form the foundation of the Government of Canada’s shift to becoming more agile, open, and user-focused",
   "main": "index.js",
   "scripts": {
-    "link-check": "bundle exec jekyll serve --detach && node link-check.js",
+    "link-check": "bundle exec jekyll serve --detach --skip-initial-build && node link-check.js",
     "lint": "markdownlint -i node_modules \"**/*.md\"",
     "test": "npm run lint && npm run link-check && npm run vnu-jar",
     "vnu-jar": "java -Xss4m -jar node_modules/vnu-jar/build/dist/vnu.jar --errors-only --skip-non-html --filterfile .vnurc --no-langdetect _site/"

@@ -9,10 +9,6 @@
   ],
   "replacementPatterns": [
     {
-      "pattern": "https://canada-ca.github.io/digital-playbook-guide-numerique/",
-      "replacement": ""
-    },
-    {
       "pattern": "&quot;",
       "replacement": ""
     }

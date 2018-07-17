@@ -9,6 +9,10 @@
   ],
   "replacementPatterns": [
     {
+      "pattern": "https://canada-ca.github.io/digital-playbook-guide-numerique/",
+      "replacement": "http://localhost:4000/"
+    },
+    {
       "pattern": "&quot;",
       "replacement": ""
     }
